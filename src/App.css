@@ -1,0 +1,39 @@
+body {
+  background: #212121;
+  color: #fff;
+}
+.movie-list{
+  padding-top: 100px;
+}
+
+.loader {
+  padding-top: 100px;
+}
+
+.collection-item{
+  background-color: #2b2b2b !important;
+}
+
+.movie-items{
+  margin-top: 50px;
+}
+
+.filters button{
+  margin: 10px;
+}
+
+/* Animation (Add After) */
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
